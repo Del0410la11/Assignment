@@ -61,7 +61,7 @@ public class PlayScreen extends AppCompatActivity implements View.OnClickListene
 
             case R.id.noteBtn:
                 Intent noteIntent = new Intent(this, NotesActivity.class);
-                startActivity(lrnIntent);
+                startActivity(noteIntent);
                 break;
 
             default:
